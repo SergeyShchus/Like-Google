@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Like Google</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="shortcut icon" href="./image/google-favicon.png" type="image/png">
+    </head>
+    <body>
+           <header class="header">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./search_image.html"> Пошук зображень</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./advanced_search.html"> Розширений пошук</a>
+                </li>
+              </ul>
+            
+        </header>
+        <main>
+            <div class="container">
+                <h1 class="main-advanced-header">Розширений пошук</h1>
+                <hr>
+                <div class="main-form_advanced">
+                    <h4>Знайти те, що <br>містить у собі щось особливе</h4>
+                    <span class="main-advanced-header_desc"> <b>Як це зробити в полі пошуку Google: </b></span>
+                    <form class="form" action="https://images.google.com/search">
+                        <div class="main-form_avanced-search">
+                            <div class="main-form-advanced_input">
+                                <div>
+                                    <label for="all-words">усі ці слова:</label>
+                                </div>
+                                <div>
+                                    <input class="advanced-input form-control" type="text" id="all-words" name="as_q">
+                                </div>
+                            </div>
+                            <div class="main-form-advanced_input">
+                                <div class="main-form-elements">
+                                    <label for="exact-word">точне слово або фразу:</label>
+                                </div>
+                                <div class="main-form-elements">
+                                    <input class="advanced-input form-control" type="text" id="exact-word" name="as_epq">
+                                </div>
+                            </div>
+                            <div class="main-form-advanced_input">
+                                <div class="main-form-elements">
+                                    <label for="any-word">будь-яке з цих слів:</label>
+                                </div>
+                                <div class="main-form-elements">
+                                    <input class="advanced-input form-control" type="text" id="any-word" name="as_oq">
+                                </div>
+                            </div>
+                            <div class="main-form-advanced_input">
+                                <div class="main-form-elements">
+                                    <label for="none-of-the-words">жодне з цих слів:</label>
+                                </div>
+                                <div class="main-form-elements">
+                                    <input class="advanced-input form-control" type="text" id="none-of-the-words"
+                                        name="as_eq">
+                                </div>
+                            </div>
+                            <div class="main-form-advanced-input_btn">
+                                <button type="submit" class="btn btn-primary"> Розширений пошук </button>
+                            </div>
+                        </div>
+                        <div class="input-description">
+                            <div class="desc-first">
+                                <span class="desc-text">Введіть важливі слова: <b>щось важливе</b></span>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-text">Візьміть точні слова в лапки: <b>"щось"</b></span>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-text">Введіть OR між усіма потрібними словами: <b>щось OR
+                                        важливе</b></span>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-text">Поставте знак мінус перед небажаними словами:<b> -незначне"</b></span>
+                            </div>
+                        </div>
+                    </form>
+                    <hr>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
